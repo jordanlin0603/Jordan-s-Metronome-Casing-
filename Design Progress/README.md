@@ -27,7 +27,7 @@ The second day focused on modifying the casing to accommodate the PCB and improv
 
 ### Work Completed
 
-- Created a 50 mm slot within the casing to allow the PCB to be inserted.
+- Created a 50 mm deep 100mm x 90mm slot within the casing to allow the PCB to be inserted.
 - Positioned the slot to provide access for PCB installation while maintaining the overall casing structure.
 - Continued refining the casing geometry to support the integration of the electronic components.
 
