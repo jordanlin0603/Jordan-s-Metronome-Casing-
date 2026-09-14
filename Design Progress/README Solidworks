@@ -1,1 +1,289 @@
+# SolidWorks Design Process
 
+This folder documents the development of the SolidWorks casing for [Morgan's Metronome v1.0](https://github.com/morganwang7777-ux/Morgan-s-Metronome-v1.0).
+
+The purpose of the enclosure is to house the main PCB and secondary plate, provide clearance for the internal wiring, and allow the electronics to remain removable for maintenance.
+
+The design was developed over five main SolidWorks sessions.
+
+---
+
+# Day 1 — Main Enclosure and PCB Cavity
+
+The first stage focused on creating the main shape of the metronome casing and the cavity for the main PCB.
+
+### Work Completed
+
+- Created the tapered enclosure profile using a SolidWorks sketch
+- Defined the main dimensions using **Smart Dimension**
+- Set the enclosure dimensions to:
+  - **140 mm bottom width**
+  - **100 mm top width**
+  - **160 mm height**
+- Used **Boss-Extrude** to convert the 2D profile into a 3D solid
+- Created a **100 mm × 90 mm** rectangular cavity in the rear of the enclosure for the PCB
+- Used **Cut-Extrude** to make the PCB cavity **30 mm deep**
+- Reduced the PCB cavity from the original planned depth of 50 mm because another internal plate would occupy a separate section of the casing
+
+### SolidWorks Tools Used
+
+- Sketch
+- Smart Dimension
+- Boss-Extrude
+- Cut-Extrude
+- Rectangle
+
+### Progress Images
+
+![Day 1 - Main enclosure profile](images/day1-01.png)
+
+![Day 1 - PCB cavity](images/day1-02.png)
+
+---
+
+# Day 2 — Secondary Plate and Wiring Clearance
+
+The second stage focused on creating the mounting area for the secondary plate and providing enough space for its wiring.
+
+### Work Completed
+
+- Measured the secondary plate
+- Created a **71 mm × 55 mm** rectangular recessed slot
+- Used **Cut-Extrude** to make the slot **15 mm deep**
+- Added a **10 mm × 18 mm** clearance pocket beside the plate
+- Extended the clearance pocket **21 mm deep**
+- Designed this pocket to provide additional room for the side of the plate and its electrical connection
+- Added a **14 mm × 10 mm** wiring passage
+- Extended the wiring passage through the enclosure so the wire could exit the casing
+- Used dimensioned sketches to control the location and size of each feature
+
+### SolidWorks Tools Used
+
+- Sketch
+- Smart Dimension
+- Rectangle
+- Cut-Extrude
+
+### Progress Images
+
+![Day 2 - Secondary plate cavity](images/day2-03.png)
+
+![Day 2 - Plate cavity dimensions](images/day2-04.png)
+
+![Day 2 - Wiring clearance pocket](images/day2-05.png)
+
+![Day 2 - Wiring passage](images/day2-06.png)
+
+---
+
+# Day 3 — Initial PCB Retaining Rail
+
+The third stage focused on designing a removable retaining mechanism so the PCB could be secured inside the rear cavity without permanently enclosing it.
+
+### Work Completed
+
+- Designed the first PCB retaining rail
+- Created a **125 mm × 12 mm** rectangular rail
+- Used **Boss-Extrude** to make the rail **4 mm thick**
+- Added a circular pivot hole for an M3 screw
+- Designed the rail so it could rotate around the screw rather than being permanently fixed in one position
+- Created a corresponding pilot hole in the metronome casing
+
+### Pivot Dimensions
+
+- Rail clearance hole: approximately **Ø3.2 mm**
+- Casing pilot hole: approximately **Ø2.8 mm**
+- Pilot-hole depth: **8 mm**
+- Pivot approximately **8 mm from the end of the rail**
+- Pivot centered across the **12 mm rail width**
+
+### SolidWorks Tools Used
+
+- Sketch
+- Smart Dimension
+- Rectangle
+- Circle
+- Boss-Extrude
+- Cut-Extrude
+
+### Progress Images
+
+![Day 3 - Retaining rail dimensions](images/day3-07.png)
+
+![Day 3 - Retaining rail model](images/day3-08.png)
+
+---
+
+# Day 4 — Assembly Testing and Retention Redesign
+
+The fourth stage focused on testing how the retaining rail interacted with the enclosure and PCB.
+
+A SolidWorks assembly was created so the railing could be positioned and rotated around the pivot.
+
+### Initial Assembly
+
+- Inserted the metronome casing and retaining rail into a SolidWorks assembly
+- Used a **Concentric Mate** to align the M3 pivot holes
+- Used a **Coincident Mate** to position the rail against the rear surface of the enclosure
+- Left rail rotation unlocked so the retaining bar could rotate around the screw
+
+![Day 4 - Initial assembly](images/day4-09.png)
+
+### Initial Rail Test
+
+The original design used a single retaining rail across the PCB.
+
+Testing the assembly showed that this design would obstruct access to buttons and other components located near the center of the PCB.
+
+![Day 4 - Original retaining rail](images/day4-10.png)
+
+### Retention System Redesign
+
+The retaining system was redesigned so that the middle of the PCB remained accessible.
+
+- Designed another retaining rail
+- Secondary rail dimensions:
+  - **110 mm long**
+  - **12 mm wide**
+  - **4 mm thick**
+- Added another M3-compatible pivot
+- Repositioned the retaining rails so that they hold the PCB along its **top and bottom edges**
+- Kept the center of the PCB clear for access to controls and electrical components
+
+![Day 4 - Revised retaining rail](images/day4-11.png)
+
+![Day 4 - Two-rail assembly](images/day4-12.png)
+
+![Day 4 - Final retaining rail positions](images/day4-13.png)
+
+### Rail Movement
+
+The retaining rails were intentionally left rotationally unlocked in the assembly.
+
+This allows them to swing away from the PCB when the board needs to be installed or removed.
+
+[Watch the retaining rail motion test](images/railing-motion.mp4)
+
+---
+
+# Day 5 — Mechanical Stops and Final Assembly
+
+The final stage focused on adding mechanical stops to control the movement of the retaining rails.
+
+### Work Completed
+
+- Designed cylindrical stop features for the retaining rails
+- Positioned the stops near the rail travel limits
+- Used assembly mates to determine the correct stop locations
+- Designed the stops so the rails cannot rotate excessively past their intended closed positions
+- Completed the final mechanical assembly
+- Verified the placement of:
+  - Main PCB cavity
+  - Secondary plate cavity
+  - Wiring clearance
+  - Wiring passage
+  - Retaining rails
+  - Rail pivots
+  - Mechanical stops
+
+### Progress Image
+
+![Day 5 - Mechanical rail stops](images/day5-14.png)
+
+---
+
+# Final Product
+
+The completed design combines the casing, component cavities, wire routing features, rotating PCB retention system, and mechanical stops into a single mechanical enclosure concept.
+
+The PCB can be inserted through the rear opening and retained using the rotating top and bottom rails.
+
+The rails can then be rotated away when access to the PCB is required.
+
+![Final SolidWorks Metronome Casing](images/final-15.png)
+
+[Watch the retaining rail movement test](images/railing-motion.mp4)
+
+---
+
+# Final Dimensions
+
+| Feature | Dimension |
+| --- | --- |
+| Enclosure height | 160 mm |
+| Bottom width | 140 mm |
+| Top width | 100 mm |
+| Main PCB cavity | 100 mm × 90 mm |
+| Main PCB cavity depth | 30 mm |
+| Secondary plate slot | 71 mm × 55 mm |
+| Secondary plate slot depth | 15 mm |
+| Wiring clearance pocket | 10 mm × 18 mm |
+| Wiring clearance depth | 21 mm |
+| Wiring passage | 14 mm × 10 mm |
+| Main retaining rail | 125 mm × 12 mm × 4 mm |
+| Secondary retaining rail | 110 mm × 12 mm × 4 mm |
+| Rail clearance hole | Approximately Ø3.2 mm |
+| Casing pilot hole | Approximately Ø2.8 mm |
+| Casing pilot-hole depth | 8 mm |
+
+---
+
+# Design Changes
+
+Several changes were made during the SolidWorks development process.
+
+### PCB Cavity Depth
+
+The original PCB cavity was planned to be approximately **50 mm deep**.
+
+This was reduced to **30 mm** after the secondary plate was separated into its own mounting cavity.
+
+### PCB Retaining System
+
+The original design used a single retaining rail across the PCB.
+
+Assembly testing showed that this rail would block access to PCB buttons and other components.
+
+The final design therefore uses **two separate retaining rails positioned along the top and bottom edges of the PCB**.
+
+This keeps the PCB secure while leaving the center accessible.
+
+### Movable Rails
+
+The retaining rails use M3 screw pivots and are intentionally left free to rotate.
+
+This allows the PCB to be removed without disassembling the entire enclosure.
+
+---
+
+# SolidWorks Tools Used
+
+The following SolidWorks tools were used throughout the project:
+
+- Sketch
+- Smart Dimension
+- Rectangle
+- Circle
+- Boss-Extrude
+- Cut-Extrude
+- Assembly
+- Insert Components
+- Concentric Mate
+- Coincident Mate
+- Distance Mate
+
+---
+
+# Download
+
+[Download the SolidWorks metronome casing](Metronome_Casing.SLDPRT)
+
+---
+
+# Related Project
+
+This enclosure was designed for:
+
+## [Morgan's Metronome v1.0](https://github.com/morganwang7777-ux/Morgan-s-Metronome-v1.0)
+
+Morgan's repository contains the electrical side of the project, including the PCB, KiCad files, firmware, and electronics documentation.
