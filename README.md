@@ -1,130 +1,168 @@
 # Jordan's Metronome Casing
 
-A custom SolidWorks enclosure designed for the electronics in [Morgan's Metronome v1.0](https://github.com/morganwang7777-ux/Morgan-s-Metronome-v1.0).
+A custom SolidWorks enclosure designed for [Morgan's Metronome v1.0](https://github.com/morganwang7777-ux/Morgan-s-Metronome-v1.0).
 
-The goal of this project was to design a casing that securely houses the metronome PCB and secondary plate while providing enough clearance for wiring, access to the PCB controls, and a removable retention system for maintenance.
+This project focuses on the mechanical design of the metronome enclosure. The casing houses the main PCB and secondary plate, provides clearance for internal wiring, and uses movable retaining rails to keep the electronics secured while still allowing the PCB to be removed for maintenance.
 
-The enclosure was initially explored in AutoCAD before being redesigned and developed more extensively in SolidWorks.
+The enclosure was first explored in AutoCAD before being rebuilt and developed more extensively in SolidWorks.
 
 ---
 
-## Final Design
+# Final Design
 
-The final enclosure includes:
+The final casing includes:
 
-- Tapered metronome casing
-- Dedicated **100 mm × 90 mm PCB cavity**
-- Separate **71 mm × 55 mm plate cavity**
-- Wiring clearance and pass-through features
+- Tapered SolidWorks enclosure
+- **100 mm × 90 mm × 30 mm** main PCB cavity
+- **71 mm × 55 mm × 15 mm** secondary plate slot
+- Wiring-clearance pocket
+- Through-enclosure wiring passage
 - Two movable PCB retaining rails
-- M3 screw pivot points
+- M3 screw-compatible pivot points
 - Mechanical stops for the retaining rails
 - Removable access to the PCB and internal components
 
-![Final SolidWorks Design](Design%20Progress/SolidWorks/images/final-15.png)
+![Final SolidWorks Casing](./Design%20Progress/SolidWorks/Solidworks%20Metronome%2015.png)
 
 ---
 
-## SolidWorks Design
+# Design Origin
 
-SolidWorks became the main CAD software used for the final casing because it allowed the enclosure, moving rails, and mounting features to be tested together using assemblies and mates.
+This enclosure was designed specifically for:
 
-### Main Dimensions
+## [Morgan's Metronome v1.0](https://github.com/morganwang7777-ux/Morgan-s-Metronome-v1.0)
 
-| Feature | Dimensions |
+Morgan's project contains the electronic portion of the metronome, including:
+
+- Arduino firmware
+- KiCad schematic
+- PCB layout
+- Gerber manufacturing files
+- Metronome electronics
+- Controls and display
+- Supporting project documentation
+
+This repository focuses on the **mechanical casing, internal mounting geometry, wire routing, and PCB retention system** for that project.
+
+---
+
+# SolidWorks Design Process
+
+The final casing was developed over five main SolidWorks design sessions.
+
+## [Day 1 — Main Enclosure and PCB Cavity](./Design%20Progress/SolidWorks/README.md#day-1--main-enclosure-and-pcb-cavity)
+
+Created the tapered metronome body and main PCB cavity.
+
+![Day 1 - Enclosure](./Design%20Progress/SolidWorks/Solidworks%20Metronome%201.jpg)
+
+![Day 1 - PCB cavity](./Design%20Progress/SolidWorks/Solidworks%20Metronome%202.png)
+
+---
+
+## [Day 2 — Secondary Plate and Wiring Clearance](./Design%20Progress/SolidWorks/README.md#day-2--secondary-plate-and-wiring-clearance)
+
+Added the secondary plate slot, wiring clearance pocket, and through-enclosure wiring passage.
+
+![Day 2 - Plate cavity](./Design%20Progress/SolidWorks/Solidworks%20Metronome%203.png)
+
+![Day 2 - Plate slot](./Design%20Progress/SolidWorks/Solidworks%20Metronome%204.png)
+
+![Day 2 - Wiring clearance](./Design%20Progress/SolidWorks/Solidworks%20Metronome%205.png)
+
+![Day 2 - Wiring passage](./Design%20Progress/SolidWorks/Solidworks%20Metronome%206.png)
+
+---
+
+## [Day 3 — Initial PCB Retaining Rail](./Design%20Progress/SolidWorks/README.md#day-3--initial-pcb-retaining-rail)
+
+Designed the original rotating PCB retaining rail and M3 pivot system.
+
+![Day 3 - Retaining rail](./Design%20Progress/SolidWorks/Solidworks%20Metronome%207.png)
+
+![Day 3 - Rail design](./Design%20Progress/SolidWorks/Solidworks%20Metronome%208.png)
+
+---
+
+## [Day 4 — Assembly Testing and Retention Redesign](./Design%20Progress/SolidWorks/README.md#day-4--assembly-testing-and-retention-redesign)
+
+Created a SolidWorks assembly to test the original retaining rail.
+
+Testing showed that placing one rail across the center of the PCB would obstruct access to the PCB controls.
+
+The retention system was redesigned to use separate rails along the **top and bottom edges**, keeping the middle of the PCB accessible.
+
+![Day 4 - Assembly](./Design%20Progress/SolidWorks/Solidworks%20Metronome%209.png)
+
+![Day 4 - Initial rail test](./Design%20Progress/SolidWorks/Solidworks%20Metronome%2010.png)
+
+![Day 4 - Rail redesign](./Design%20Progress/SolidWorks/Solidworks%20Metronome%2011.png)
+
+![Day 4 - Updated assembly](./Design%20Progress/SolidWorks/Solidworks%20Metronome%2012.png)
+
+![Day 4 - Final rail positions](./Design%20Progress/SolidWorks/Solidworks%20Metronome%2013.png)
+
+[Watch the retaining rail movement test](./Design%20Progress/SolidWorks/SOLIDWORKS%20Design%20Premium%20for%20Students%202026%20SP3.2%20-%20Academic%20Use%20Only%20-%20%5BMetronome%20Casing%20Complete%5D%202026-09-13%2022-09-31.mp4)
+
+---
+
+## [Day 5 — Mechanical Stops and Final Assembly](./Design%20Progress/SolidWorks/README.md#day-5--mechanical-stops-and-final-assembly)
+
+Added cylindrical mechanical stops to limit the rotation of the retaining rails and completed the final assembly.
+
+![Day 5 - Mechanical stops](./Design%20Progress/SolidWorks/Solidworks%20Metronome%2014.png)
+
+---
+
+# Final Product
+
+The final SolidWorks enclosure combines the PCB cavity, secondary plate cavity, wiring features, movable retaining rails, and mechanical stops into a single mechanical design.
+
+![Final Metronome Casing](./Design%20Progress/SolidWorks/Solidworks%20Metronome%2015.png)
+
+### Files
+
+[Full SolidWorks Design Process](./Design%20Progress/SolidWorks/README.md)
+
+[Download the SolidWorks Assembly](./Design%20Progress/SolidWorks/Metronome%20Casing%20Complete.SLDASM)
+
+[Watch the Retaining Rail Motion Test](./Design%20Progress/SolidWorks/SOLIDWORKS%20Design%20Premium%20for%20Students%202026%20SP3.2%20-%20Academic%20Use%20Only%20-%20%5BMetronome%20Casing%20Complete%5D%202026-09-13%2022-09-31.mp4)
+
+---
+
+# Main Dimensions
+
+| Feature | Dimension |
 | --- | --- |
 | Enclosure height | 160 mm |
 | Bottom width | 140 mm |
 | Top width | 100 mm |
-| Main PCB cavity | 100 mm × 90 mm × 30 mm deep |
-| Secondary plate slot | 71 mm × 55 mm × 15 mm deep |
-| Wiring clearance pocket | 10 mm × 18 mm × 21 mm deep |
+| Main PCB cavity | 100 mm × 90 mm × 30 mm |
+| Secondary plate slot | 71 mm × 55 mm × 15 mm |
+| Wiring clearance pocket | 10 mm × 18 mm × 21 mm |
 | Wiring passage | 14 mm × 10 mm |
 | Main retaining rail | 125 mm × 12 mm × 4 mm |
 | Secondary retaining rail | 110 mm × 12 mm × 4 mm |
 | M3 rail clearance hole | Approximately Ø3.2 mm |
-| Casing pilot hole | Approximately Ø2.8 mm × 8 mm deep |
+| Casing pilot hole | Approximately Ø2.8 mm × 8 mm |
 
 ---
 
-## Design Process
+# Retaining System
 
-The complete SolidWorks design process is documented here:
+The PCB is held in the rear cavity using two rotating retaining rails.
 
-### [Day 1 — Main Enclosure and PCB Cavity](Design%20Progress/SolidWorks/README.md#day-1--main-enclosure-and-pcb-cavity)
+The original design used one rail across the center of the PCB. SolidWorks assembly testing showed that this would obstruct access to buttons and other PCB components.
 
-Created the main tapered enclosure and the rear cavity for the PCB.
+The system was redesigned to use separate **top and bottom rails**.
 
-[View Day 1 Image 1](Design%20Progress/SolidWorks/images/day1-01.png)  
-[View Day 1 Image 2](Design%20Progress/SolidWorks/images/day1-02.png)
+Each rail rotates around an M3 screw pivot, allowing it to swing away during PCB installation or removal and rotate back into position to retain the board.
 
-### [Day 2 — Secondary Plate and Wiring Clearance](Design%20Progress/SolidWorks/README.md#day-2--secondary-plate-and-wiring-clearance)
-
-Added the secondary plate cavity, wiring clearance pocket, and through-enclosure wiring passage.
-
-[View Day 2 Image 1](Design%20Progress/SolidWorks/images/day2-03.png)  
-[View Day 2 Image 2](Design%20Progress/SolidWorks/images/day2-04.png)  
-[View Day 2 Image 3](Design%20Progress/SolidWorks/images/day2-05.png)  
-[View Day 2 Image 4](Design%20Progress/SolidWorks/images/day2-06.png)
-
-### [Day 3 — PCB Retaining Rail](Design%20Progress/SolidWorks/README.md#day-3--initial-pcb-retaining-rail)
-
-Designed the first rotating retaining rail and M3 pivot system.
-
-[View Day 3 Image 1](Design%20Progress/SolidWorks/images/day3-07.png)  
-[View Day 3 Image 2](Design%20Progress/SolidWorks/images/day3-08.png)
-
-### [Day 4 — Assembly Testing and Retention Redesign](Design%20Progress/SolidWorks/README.md#day-4--assembly-testing-and-retention-redesign)
-
-Tested the casing and rail in a SolidWorks assembly, identified an accessibility problem, and redesigned the retention system.
-
-[View Day 4 Image 1](Design%20Progress/SolidWorks/images/day4-09.png)  
-[View Day 4 Image 2](Design%20Progress/SolidWorks/images/day4-10.png)  
-[View Day 4 Image 3](Design%20Progress/SolidWorks/images/day4-11.png)  
-[View Day 4 Image 4](Design%20Progress/SolidWorks/images/day4-12.png)  
-[View Day 4 Image 5](Design%20Progress/SolidWorks/images/day4-13.png)
-
-[Watch Retaining Rail Motion Test](Design%20Progress/SolidWorks/images/railing-motion.mp4)
-
-### [Day 5 — Mechanical Stops and Final Assembly](Design%20Progress/SolidWorks/README.md#day-5--mechanical-stops-and-final-assembly)
-
-Added mechanical stops and completed the final assembly.
-
-[View Day 5 Image](Design%20Progress/SolidWorks/images/day5-14.png)
-
-### [Final Product](Design%20Progress/SolidWorks/README.md#final-product)
-
-[View Final SolidWorks Design](Design%20Progress/SolidWorks/images/final-15.png)
+Mechanical stops were added to limit the rail movement in the closed position.
 
 ---
 
-## Full SolidWorks Documentation
-
-[View the complete SolidWorks design process](Design%20Progress/SolidWorks/README.md)
-
-[Download the SolidWorks casing file](Design%20Progress/SolidWorks/Metronome_Casing.SLDPRT)
-
-[Watch the retaining rail movement test](Design%20Progress/SolidWorks/images/railing-motion.mp4)
-
----
-
-## How the Retaining System Works
-
-The PCB is installed into the rear cavity and held in place using two rotating retaining rails.
-
-The first design used a single rail across the PCB. During assembly testing, this design was found to obstruct access to buttons and other components on the board.
-
-The retention system was therefore redesigned to use separate rails positioned along the top and bottom edges of the PCB.
-
-Each rail rotates around an M3 screw pivot. This allows the rails to swing away from the PCB during installation or removal and rotate back into position to retain the board.
-
-Mechanical stops were later added to help control the closed position of the rails.
-
-[Watch the rail movement demonstration](Design%20Progress/SolidWorks/images/railing-motion.mp4)
-
----
-
-## SolidWorks Tools Used
+# SolidWorks Tools Used
 
 - Sketch
 - Smart Dimension
@@ -140,43 +178,23 @@ Mechanical stops were later added to help control the closed position of the rai
 
 ---
 
-## Related Electronics Project
+# AutoCAD Development
 
-This casing was designed around the PCB and internal components developed for:
+AutoCAD was used during the initial concept stage to explore the basic shape and dimensions of the casing.
 
-### [Morgan's Metronome v1.0](https://github.com/morganwang7777-ux/Morgan-s-Metronome-v1.0)
+The enclosure was later rebuilt in SolidWorks so that parametric dimensions, feature-based modelling, moving components, and assembly mates could be used.
 
-Morgan's repository contains the electrical portion of the project, including:
-
-- Arduino firmware
-- PCB design
-- KiCad schematic
-- PCB layout
-- Gerber manufacturing files
-- Metronome electronics
-- Project documentation
-
-This repository focuses on the **mechanical enclosure and component-retention system** for that project.
+The original AutoCAD development has been kept in this repository to document the progression of the design.
 
 ---
 
-## AutoCAD Development
+# Future Improvements
 
-AutoCAD was used during the earlier stages of the project to explore the general shape and dimensions of the metronome casing.
-
-The design was later rebuilt in SolidWorks so that the enclosure could be developed using parametric features and tested with moving components in an assembly.
-
-The earlier AutoCAD work has been kept in the repository to document the development of the project.
-
----
-
-## Future Improvements
-
-- 3D print and physically test the complete enclosure
+- 3D print and physically test the enclosure
 - Verify PCB and plate tolerances after printing
-- Adjust clearances based on the first physical prototype
-- Refine wiring channels and connector access
-- Add fillets and chamfers where appropriate
-- Improve the retaining rail stops
+- Adjust clearances based on the first prototype
+- Refine wire routing and connector access
+- Add fillets or chamfers where useful
+- Improve the mechanical rail stops
 - Consider heat-set inserts for repeated screw removal
-- Improve the overall finish of the casing
+- Refine the exterior finish of the enclosure
