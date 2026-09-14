@@ -54,7 +54,7 @@ The final casing was developed over five main SolidWorks design sessions.
 
 Created the tapered metronome body and main PCB cavity.
 
-![Day 1 - Enclosure](Design%20Progress/SolidWorks/Solidworks%201.jpg)
+![Day 1 - Progress 1](./Solidworks%20%201.png) 
 
 ![Day 1 - PCB Cavity](Design%20Progress/SolidWorks/Solidworks%20Metronome%202.png)
 
