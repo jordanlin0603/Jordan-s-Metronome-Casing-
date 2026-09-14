@@ -22,7 +22,6 @@ The final casing includes:
 - Mechanical stops for the retaining rails
 - Removable access to the PCB and internal components
 
-![Final SolidWorks Casing](Design%20Progress/SolidWorks/Solidworks%20Metronome%2015.png)
 
 ---
 
@@ -54,9 +53,6 @@ The final casing was developed over five main SolidWorks design sessions.
 
 Created the tapered metronome body and main PCB cavity.
 
-![Day 1 - Enclosure](./Design%20Progress/SolidWorks/Solidworks%201.jpg)
-
-![Day 1 - PCB Cavity](Design%20Progress/SolidWorks/Solidworks%20Metronome%202.png)
 
 ---
 
@@ -64,13 +60,6 @@ Created the tapered metronome body and main PCB cavity.
 
 Added the secondary plate slot, wiring clearance pocket, and through-enclosure wiring passage.
 
-![Day 2 - Plate Cavity](Design%20Progress/SolidWorks/Solidworks%20Metronome%203.png)
-
-![Day 2 - Plate Slot](Design%20Progress/SolidWorks/Solidworks%20Metronome%204.png)
-
-![Day 2 - Wiring Clearance](Design%20Progress/SolidWorks/Solidworks%20Metronome%205.png)
-
-![Day 2 - Wiring Passage](Design%20Progress/SolidWorks/Solidworks%20Metronome%206.png)
 
 ---
 
@@ -78,9 +67,6 @@ Added the secondary plate slot, wiring clearance pocket, and through-enclosure w
 
 Designed the original rotating PCB retaining rail and M3 pivot system.
 
-![Day 3 - Retaining Rail](Design%20Progress/SolidWorks/Solidworks%20Metronome%207.png)
-
-![Day 3 - Rail Design](Design%20Progress/SolidWorks/Solidworks%20Metronome%208.png)
 
 ---
 
@@ -92,15 +78,6 @@ Testing showed that placing one rail across the center of the PCB would obstruct
 
 The retention system was redesigned to use separate rails along the **top and bottom edges**, keeping the middle of the PCB accessible.
 
-![Day 4 - Assembly](Design%20Progress/SolidWorks/Solidworks%20Metronome%209.png)
-
-![Day 4 - Initial Rail Test](Design%20Progress/SolidWorks/Solidworks%20Metronome%2010.png)
-
-![Day 4 - Rail Redesign](Design%20Progress/SolidWorks/Solidworks%20Metronome%2011.png)
-
-![Day 4 - Updated Assembly](Design%20Progress/SolidWorks/Solidworks%20Metronome%2012.png)
-
-![Day 4 - Final Rail Positions](Design%20Progress/SolidWorks/Solidworks%20Metronome%2013.png)
 
 ---
 
@@ -108,15 +85,12 @@ The retention system was redesigned to use separate rails along the **top and bo
 
 Added cylindrical mechanical stops to limit the rotation of the retaining rails and completed the final assembly.
 
-![Day 5 - Mechanical Stops](Design%20Progress/SolidWorks/Solidworks%20Metronome%2014.png)
-
 ---
 
 # Final Product
 
 The final SolidWorks enclosure combines the PCB cavity, secondary plate cavity, wiring features, movable retaining rails, and mechanical stops into a single mechanical design.
 
-![Final Metronome Casing](Design%20Progress/SolidWorks/Solidworks%20Metronome%2015.png)
 
 ---
 
